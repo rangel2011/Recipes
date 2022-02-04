@@ -14,7 +14,7 @@
     </head>
 
     <body>
-        <!-- Sidebar (this is hidden bt default) -->
+        <!-- Sidebar (this is hidden by default) -->
             <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px;" id="mySidebar">
                 <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
                 <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
@@ -32,6 +32,8 @@
         
         <!-- Page Content -->
             <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px;">
+        
+        <!-- First Photo Grid-->
                 <div class="w3-row-padding w3-padding-16 w3-center" id="food">
                     <div class="w3-quarter">
                         <img src="" alt="" style="width:100%;">
@@ -43,9 +45,80 @@
                         <h3> Suck on some snowballs</h3>
                         <p>These super easy to make cookies are a hit for the whole family.</p>
                     </div>
-                    
+                    <div class="w3-quarter">
+                        <img src="" alt="" style="width:100%;">
+                        <h3>Albondigas Soup</h3>
+                        <p>My partner was feeling nostalgic before and Albondigas was something from his childhood that he missed. This is one of his go to soups to make now.</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img src="" alt="" style="width:100%;">
+                        <h3>Chocolate Chip Cookies</h3>
+                        <p>These are a classic that we make! We got this recipe from Alvin from Tasty, if you have not checked his stuff out, you totally should!</p>
+                    </div>
                 </div>
-            
-            </div>
+        <!-- Second Photo Grid -->
+                <div class="w3-row-padding w3-padding-16 w3-center">
+                    <div class="w3-quarter">
+                        <img src="" alt="" style="width:100%;">
+                        <h3>The best oatmeal rasin cookie ever!</h3>
+                        <p> I will be the first to tell you that I never liked oatmeal rasin cookies growing up. These things are something else! I highly recommend that you try it once!</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img src="" alt="" style="width:100%">
+                        <h3>Lemon Cacio e Pepe</h3>
+                        <p>One of the first cookbooks that I bought my partner was Chrissy Teigen's Cravings and Cravings Hungry for More. This recipe was one of the first ones that we made in that downtown Riverside apartment.</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img src="" alt="" style="width:100%;">
+                        <h3>Cheesy Chicken Milanese</h3>
+                        <p>This is another one of Chrissy's recipes. We paired the Lemon Cacio e Pepe with this dish that night. This has easily become one recipe that we have learned how to do by heart now.</p>
+                    </div>
+                    <div class="w3-quarter">
+                        <img src="" alt="" style="width:100%;">
+                        <h3>White Chocolate Lemon Bars</h3>
+                        <p>During spring time when lemons are in season, one of my favorite things to make are these White Chocolate Lemon Bars. There is a perfect balance between sweet and citrus. I have found these to always be a hit no matter where I have taken them.</p>
+                    </div>
+                </div>
+        <!-- Pagination -->
+                <div class="w3-center w3-padding-32">
+                    <div class="w3-bar">
+                        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                        <a href="#" class="w3-bar-item w3-button w3-hover-black">1</a>
+                        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+                        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+                    </div>
+                </div>
+                <hr id="about">
+        <!-- About Section -->
+                <div class="w3-container w3-padding-32 w3-center">
+                    <h3>About Us</h3>
+                    <img src="" alt="" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+                    <div class="w3-padding-32">
+                        <h4><b>We both love to eat</b></h4>
+                        <h6><i>While also spening time in the kitchen trying new things</i></h6>
+                        <p>We met each other in January of 2019. From the very first date at Salted Pig, we both knew that we were "the ones" for each other. I quickly moved into his one bedroom apartment in downtown Riverside and from there, we started to spend more time making each other food. We wanted to create a central location to find it easy to look up the recipes that we have enjoyed and also have meaning to us. So, welcome to our recipe page and you can learn more about us through food.</p>
+                    </div>
+                </div>
+                <hr>
+        <!-- Footer -->
+                <footer class="w3-row-padding w3-padding-32">
+                    <div>
+                        <h3>FOOTER</h3>
+                        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+                    </div>
+                </footer>
+        <!-- End of Page Content -->
+            </div> 
+        <script>
+            // Script to open and close the side bar
+            function w3_open() {
+                document.getElementById("mySideBar").style.display = "block";
+            }
+            function w3_close () {
+                document.getElementById("mySideBar").style.display = "none";
+            }
+        </script>
     </body>
 </html>
